@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Astloch&family=Ubuntu+Mono&family=UnifrakturMaguntia&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+body {
+  color: white;
+  scroll-snap-type: y mandatory;
+  scroll-margin-top: 30vh;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.25em;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: black;
+  height: 100vh;
+}
+
+.intro {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.characters {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.hunt {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.combat {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+/* STYLING */
+
+.heading {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: "Astloch", cursive;
+  color: red;
+  font-size: 4.5em;
+}
+
+h2 {
+  font-family: "UnifrakturMaguntia", cursive;
+  color: red;
+  font-size: 2.5em;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.st {
+  color: gray;
+}
