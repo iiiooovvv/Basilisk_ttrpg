@@ -27,38 +27,51 @@ section {
 
 .intro {
   height: 100vh;
+  width: 100%;
 }
 
 .characters {
   height: 100vh;
+  width: 100%;
 }
 
 .hunt {
   height: 100vh;
+  width: 100%;
 }
 
 .combat {
   height: 100vh;
+  width: 100%;
 }
 
 .ruin {
   height: 100vh;
+  width: 100%;
 }
 
 .help {
   height: 100vh;
+  width: 100%;
 }
+
 .reduction {
   height: 100vh;
+  width: 100%;
 }
+
 .loss {
   height: 100vh;
+  width: 100%;
 }
+
 .license {
   height: 100vh;
+  width: 100%;
 }
-/* STYLING */
 
+/* STYLING */
+/* ======================== */
 .heading {
   display: table-cell;
   vertical-align: middle;
