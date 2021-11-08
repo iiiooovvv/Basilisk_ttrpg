@@ -10,7 +10,6 @@
 
 body {
   color: white;
-  scroll-snap-type: y mandatory;
   scroll-margin-top: 30vh;
   font-family: "Ubuntu Mono", monospace;
   font-size: 1.25em;
@@ -27,22 +26,18 @@ section {
 }
 
 .intro {
-  scroll-snap-align: start;
   height: 100vh;
 }
 
 .characters {
-  scroll-snap-align: start;
   height: 100vh;
 }
 
 .hunt {
-  scroll-snap-align: start;
   height: 100vh;
 }
 
 .combat {
-  scroll-snap-align: start;
   height: 100vh;
 }
 
